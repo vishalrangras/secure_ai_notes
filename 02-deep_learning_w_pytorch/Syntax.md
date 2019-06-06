@@ -1,4 +1,6 @@
 # Part 1: Tensors in PyTorch
+
+*[Back to Home Page](https://github.com/vishalrangras/secure_ai_notes)*
 	
 * Sigmoid of x: 
 ```python
@@ -46,3 +48,5 @@ dest_tensor = torch.from_numpy(a)	#The memory is shared between Numpy Array and 
 ```python
 dest_np_array = source_tensor.numpy()
 ```
+
+*[Back to Home Page](https://github.com/vishalrangras/secure_ai_notes)*

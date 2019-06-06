@@ -1,5 +1,6 @@
 # Secure and Private AI - Notes
 **Submitted by: Vishal Rangras**
+
 This repository contains notes prepared by me for Secure and Private AI Scholarship Challenge of Udacity and Facebook.
 
 ## Table of Content:
