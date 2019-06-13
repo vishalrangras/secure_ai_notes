@@ -60,7 +60,7 @@ torch.sum(source_tensor)		#You can also apply .sum directly on a tensor.
 source_tensor.reshape(a, b)		#Returns a new tensor with shape a, b
 source_tensor.resize_(a, b) 	#Returns the same tensor with shape a, b. In-place operation.
 source_tensor.view(a, b)		#Returns a new tensor with shape a, b
-```
+
 # To do Matrix Multiplication
 torch.mm(source_tensor_1, source_tensor_2)
 
@@ -159,7 +159,7 @@ Basically, we are stacking our 64 images of a batch into a 2D tensor.
 
 We need to implement following steps in order to build a neural network:
 
-1. Flattening the batch of images:
+#### 1. Flattening the batch of images:
 
 ```python
 print(images.shape)								# Will return [64, 1, 28, 28]
@@ -171,7 +171,7 @@ print(inputs.shape)								# Will return [64, 784]
 
 -1 is a way of telling the library: "Give me a tensor that has given numbers of columns/rows and you compute the appropriate number of rows/columns that is necessary to make this happen".
 
-2. Define number of Neurons in each Layer and hence defining the Neural Network:
+#### 2. Define number of Neurons in each Layer and hence defining the Neural Network:
 
 * Since, our input features are 784 (28 * 28), number of neurons in our input layer are going to be 784.
 
@@ -201,7 +201,7 @@ W2 = torch.randn((n_hidden, n_output))
 B2 = torch.rand(n_output)
 ```
 
-3. Activation for Hidden Layer and Output Layer:
+#### 3. Activation for Hidden Layer and Output Layer:
 
 * We are instructed to use Sigmoid as Activation function for Hidden Layer, while to use Softmax Function for Output Layer.
 
